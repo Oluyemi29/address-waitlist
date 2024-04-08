@@ -1,0 +1,3 @@
+.hideKit::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
