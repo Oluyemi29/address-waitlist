@@ -54,7 +54,6 @@ export default function Home() {
         },
         body : JSON.stringify({connectAdd,name,email,number})
       })
-      console.log(res)
       if(res.ok){
         const successData = await res.json();
         toast.success(successData.success)
